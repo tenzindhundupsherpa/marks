@@ -18,7 +18,7 @@ public class Marks {
      double obtainedTotal=0;
      double[] marks;
      String[] subject;
-     Scanner input;
+     Scanner input; 
      
      //constructor
      public Marks(String[] subject,Scanner input){
@@ -26,6 +26,7 @@ public class Marks {
           this.subject=subject;
           this.input=input;
      }
+         
      
     public void getMarks(){
         for(int i=0;i<marks.length;i++){
